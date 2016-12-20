@@ -2,7 +2,8 @@
 <html lang="fr">
 <head>
         <meta charset="utf-8" />
-        <title>Présentation générale de Pastèque</title>
+o
+qxcc        <title>Présentation générale de Pastèque</title>
         <link rel="stylesheet" href="theme/css/main.css" />
         <link rel="icon" href="theme/images/icons/favicon.ico" />
         <link href="feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Pastèque Atom Feed" />
@@ -16,7 +17,7 @@
         <header id="banner" class="body">
                 <h1>
 			<a href="index.html">
-				Banane  <strong>logiciel libre de caisse enregistreuse</strong>			</a>
+				CLAFOUTI À LA BANANE  <strong>logiciel libre de caisse enregistreuse</strong>			</a>
 		</h1>
                 <nav><ul>
                     <li><a href="category/blog.html"><i class="fa fa-rss fa-lg"></i> Actualité</a></li>
@@ -26,7 +27,7 @@
                 </ul></nav>
         </header><!-- /#banner -->
 <section id="content" class="body">
-    <h1 class="entry-title">Présentation générale de Pastèque</h1>
+    c<h1 class="entry-title">Présentation générale de Pastèque</h1>
     
     <p>Pastèque est une suite de logiciels libres ayant pour finalité d’opérer des caisses enregistreuses.</p>
 <p>La suite est composée de 3 logiciels :</p>
