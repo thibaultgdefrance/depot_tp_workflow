@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+        <meta charset="utf-8" />
+        <title>Contactez-nous</title>
+        <link rel="stylesheet" href="../theme/css/main.css" />
+        <link rel="icon" href="../theme/images/icons/favicon.ico" />
+        <link href="../feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Pastèque Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1>
+			<a href="../index.html">
+				Pastèque  <strong>logiciel libre de caisse enregistreuse</strong>			</a>
+		</h1>
+                <nav><ul>
+                    <li><a href="../category/blog.html"><i class="fa fa-rss fa-lg"></i> Actualité</a></li>
+                    <li><a href="../presentation"><i class="fa fa-bullhorn fa-lg"></i> Présentation</a></li>
+                    <li><a href="https://my.pasteque.coop/decouvrir-pasteque/"><i class="fa fa-check-square-o fa-lg"></i> Démo</a></li>
+                    <li><a href="contact"><i class="fa fa-commenting fa-lg"></i> Contact</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+    <h1 class="entry-title">Contactez-nous</h1>
+    
+    <h1><i class="fa fa-institution"></i> Support professionnel</h1>
+<p>Si vous êtes à la recherche d’un prestataire professionnel, vous pouvez contacter :</p>
+<ul>
+<li><strong>Héricode</strong> Cédric Houbart, contributeur majoritaire du projet. Lille. <a href="mailto:cedric@hericode.fr">cedric@hericode.fr</a></li>
+<li><strong>Use-Technology</strong> Youssef Chahid. Maroc <a href="mailto:chahid.reseau@gmail.com">chahid.reseau@gmail.com</a></li>
+</ul>
+<p>Vous pouvez demander à être ajouté à cette liste</p>
+<h1><i class="fa fa-users"></i> Association</h1>
+<p>Si vous souhaitez, vous pouvez entrer en contact avec l’association Pastèque, qui gère le projet :</p>
+<p>Association Pastèque,<br />
+<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#98;&#111;&#110;&#106;&#111;&#117;&#114;&#64;&#112;&#97;&#115;&#116;&#101;&#113;&#117;&#101;&#46;&#111;&#114;&#103;">&#98;&#111;&#110;&#106;&#111;&#117;&#114;&#64;&#112;&#97;&#115;&#116;&#101;&#113;&#117;&#101;&#46;&#111;&#114;&#103;</a><br />
+19 rue Nicolas Leblanc<br />
+59000 Lille</p>
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="../feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                            <li><a href="https://twitter.com/pastequepos">twitter</a></li>
+                            <li><a href="https://www.facebook.com/pastequepos">facebook</a></li>
+                            <li><a href="https://framasphere.org/tags/pasteque">dispora*</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+		<div class="vcard body">
+			<nav>
+				    <li><a href="mentions-legales"><i class="fa fa-balance-scale"></i> Mentions légales</a></li>
+			</nav>
+		</div>
+                <address id="about" class="vcard body">
+                	<p>Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.</p>
+			<p>The theme is derived of <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+                </address><!-- /#about -->
+
+        </footer><!-- /#contentinfo -->
+
+    <script type="text/javascript">
+        var pkBaseURL = "//pasteque.org/piwik/";
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http")+"://"+pkBaseURL+"/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "1"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+    </script>
+</body>
+</html>

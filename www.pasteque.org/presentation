@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+        <meta charset="utf-8" />
+        <title>Présentation générale de Pastèque</title>
+        <link rel="stylesheet" href="theme/css/main.css" />
+        <link rel="icon" href="theme/images/icons/favicon.ico" />
+        <link href="feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Pastèque Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1>
+			<a href="index.html">
+				Pastèque  <strong>logiciel libre de caisse enregistreuse</strong>			</a>
+		</h1>
+                <nav><ul>
+                    <li><a href="category/blog.html"><i class="fa fa-rss fa-lg"></i> Actualité</a></li>
+                    <li><a href="presentation"><i class="fa fa-bullhorn fa-lg"></i> Présentation</a></li>
+                    <li><a href="https://my.pasteque.coop/decouvrir-pasteque/"><i class="fa fa-check-square-o fa-lg"></i> Démo</a></li>
+                    <li><a href="about/contact"><i class="fa fa-commenting fa-lg"></i> Contact</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+    <h1 class="entry-title">Présentation générale de Pastèque</h1>
+    
+    <p>Pastèque est une suite de logiciels libres ayant pour finalité d’opérer des caisses enregistreuses.</p>
+<p>La suite est composée de 3 logiciels :</p>
+<ul>
+<li><i class="fa fa-line-chart"></i> Pastèque Serveur, sous licence AGPL3+: backoffice du commerçant. Enregistre les ventes des logiciels clients, permet l’administration des ventes etc. Le tout depuis un navigateur web (logiciel PHP)</li>
+<li><i class="fa fa-desktop"></i> Pastèque Desktop, sous licence GPL3+: front office du commerçant, prévu pour tourner sur PC (Windows ou Linux) ainsi que sur MacOS. Il a un look très old school, mais il fait son travail efficacement</li>
+<li><i class="fa fa-tablet"></i> Pastèque Android, sous licence GPL3+: front office du commerçant, prévu pour tourner sous tablette Android. Petit dernier de la série, il est développé pour être aussi efficace que son grand frère <em>Desktop</em> mais sur des écrans contraints (taille 10")</li>
+</ul>
+<p>Il y a bien sûr toujours des projets:</p>
+<ul>
+<li><i class="fa fa-gears"></i> Pastèque-API: séparation de l’enregistrement des ventes et de l’administration</li>
+<li><i class="fa fa-wrench"></i> Pastèque-Shell: boîte à outils</li>
+<li><i class="fa fa-html5"></i> Pastèque-HTML5: front office du commerçant via un navigateur web</li>
+</ul>
+<h2><i class="fa fa-institution"></i> Puis-je avoir un support professionnel ?</h2>
+<p>Oui, voici la liste des prestataires existants :</p>
+<ul>
+<li><strong>Héricode</strong> Cédric Houbart, contributeur majoritaire du projet. Lille. <a href="mailto:cedric@hericode.fr">cedric@hericode.fr</a></li>
+<li><strong>Use-Technology</strong> Youssef Chahid. Maroc <a href="mailto:chahid.reseau@gmail.com">chahid.reseau@gmail.com</a></li>
+</ul>
+<p>Si vous souhaitez être listé ici, <a href="mailto:contact@pasteque.org">contactez-nous</a></p>
+<h2><i class="fa fa-code"></i> Où est le code ?</h2>
+<p>Excellente question. Ici: <a href="https://framagit.org/groups/pasteque">https://framagit.org/groups/pasteque</a></p>
+<h2><i class="fa fa-linux"></i> Existe-t-il une communauté ?</h2>
+<p>Évidement, elle est ici: <a href="https://communaute.pasteque.org">https://communaute.pasteque.org</a></p>
+<h2><i class="fa fa-book"></i> Je veux lire la documentation</h2>
+<p>Elle a grandement besoin d’être complétée, participez-y !</p>
+<p>Elle est disponible ici: <a href="https://fr.wikibooks.org/wiki/Past%C3%A8que_%28logiciel%29">https://fr.wikibooks.org/wiki/Past%C3%A8que_%28logiciel%29</a></p>
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                            <li><a href="https://twitter.com/pastequepos">twitter</a></li>
+                            <li><a href="https://www.facebook.com/pastequepos">facebook</a></li>
+                            <li><a href="https://framasphere.org/tags/pasteque">dispora*</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+		<div class="vcard body">
+			<nav>
+				    <li><a href="about/mentions-legales"><i class="fa fa-balance-scale"></i> Mentions légales</a></li>
+			</nav>
+		</div>
+                <address id="about" class="vcard body">
+                	<p>Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.</p>
+			<p>The theme is derived of <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+                </address><!-- /#about -->
+
+        </footer><!-- /#contentinfo -->
+
+    <script type="text/javascript">
+        var pkBaseURL = "//pasteque.org/piwik/";
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http")+"://"+pkBaseURL+"/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "1"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+    </script>
+</body>
+</html>

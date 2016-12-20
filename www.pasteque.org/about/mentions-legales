@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+        <meta charset="utf-8" />
+        <title>Mentions légales</title>
+        <link rel="stylesheet" href="../theme/css/main.css" />
+        <link rel="icon" href="../theme/images/icons/favicon.ico" />
+        <link href="../feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Pastèque Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1>
+			<a href="../index.html">
+				Pastèque  <strong>logiciel libre de caisse enregistreuse</strong>			</a>
+		</h1>
+                <nav><ul>
+                    <li><a href="../category/blog.html"><i class="fa fa-rss fa-lg"></i> Actualité</a></li>
+                    <li><a href="../presentation"><i class="fa fa-bullhorn fa-lg"></i> Présentation</a></li>
+                    <li><a href="https://my.pasteque.coop/decouvrir-pasteque/"><i class="fa fa-check-square-o fa-lg"></i> Démo</a></li>
+                    <li><a href="contact"><i class="fa fa-commenting fa-lg"></i> Contact</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+    <h1 class="entry-title">Mentions légales</h1>
+    
+    <p><i class="fa fa-balance-scale"></i> Ce site web est hébergé sur un serveur dédié loué chez <a href="http://www.ovh.com">OVH</a></p>
+<ul>
+<li>Directeur de publication: <a href="http://www.pasteque.org/about/mentions-legales/philippe@pasteque.org">Philippe Pary</a></li>
+<li>Contact pour demandes professionnelles: <a href="http://www.pasteque.org/about/mentions-legales/cedric@pasteque.pro">Cédric Houbart</a></li>
+</ul>
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="../feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                            <li><a href="https://twitter.com/pastequepos">twitter</a></li>
+                            <li><a href="https://www.facebook.com/pastequepos">facebook</a></li>
+                            <li><a href="https://framasphere.org/tags/pasteque">dispora*</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+		<div class="vcard body">
+			<nav>
+				    <li><a href="mentions-legales"><i class="fa fa-balance-scale"></i> Mentions légales</a></li>
+			</nav>
+		</div>
+                <address id="about" class="vcard body">
+                	<p>Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.</p>
+			<p>The theme is derived of <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+                </address><!-- /#about -->
+
+        </footer><!-- /#contentinfo -->
+
+    <script type="text/javascript">
+        var pkBaseURL = "//pasteque.org/piwik/";
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http")+"://"+pkBaseURL+"/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "1"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+    </script>
+</body>
+</html>
